@@ -1,12 +1,12 @@
 site_name: AvatarSceneBrowserDoc
 site_description: AvatarSceneBrowser插件文档
 site_author: Cyn-thiatMt
-site_url: https://cynth-mt.github.io/AvatarSceneBrowser/
+site_url: https://cynth-mt.github.io/AvatarSceneBrowserDoc/
 use_directory_urls: true
 
-# repo_name: cynth-mt/cynth-mt.github.io
-# repo_url: https://github.com/cynth-mt/cynth-mt.github.io
-# edit_uri: edit/main/AvatarSceneBrowser/docs/
+# repo_name: Cynth-Mt/AvatarSceneBrowserDoc
+# repo_url: https://github.com/Cynth-Mt/AvatarSceneBrowserDoc
+# edit_uri: edit/main/docs/
 
 repo_url: https://x.com/CYTHIAM246
 repo_name: Twitter
