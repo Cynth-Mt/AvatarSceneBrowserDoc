@@ -1,4 +1,4 @@
 /.specstory
 .DS_Store
-/AvatarSceneBrowser/site/
-/AvatarSceneBrowser/venv/
+/site/
+/venv/
