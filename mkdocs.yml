@@ -14,7 +14,6 @@ repo_name: Twitter
 theme:
   name: material
   language: zh
-  # … 其他 theme 配置 …
   icon:
     repo: fontawesome/brands/twitter
   palette:
@@ -79,4 +78,4 @@ nav:
 extra:
   generator: true
 
-# Force rebuild - update navigation structure 
+# Force rebuild - debug deployment 
