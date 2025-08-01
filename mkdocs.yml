@@ -62,21 +62,17 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - 主页: index.md
-  - 快速开始:
+ - 主页: index.md
+  - 快速开始: getting-started.md
+  - 用户指南:
     - 安装指南: installation.md
-    - 快速入门: getting-started.md
-  - 核心功能:
     - 使用指南: usage.md
-    - 场景浏览: scene-browsing.md
-    - 标签管理: tag-management.md
-  - 高级功能:
     - GUID追踪系统: guid-system.md
     - GUID批量更新工具: guid-batch-tool.md
-    - 菜单结构: menu-structure.md
-  - 配置与设置:
+    - 标签管理: tag-management.md
+  - 帮助支持:
     - 配置指南: configuration.md
-  - 帮助与支持:
+    - 场景浏览: scene-browsing.md
     - 常见问题: faq.md
     - 更新日志: release_log.md
 
