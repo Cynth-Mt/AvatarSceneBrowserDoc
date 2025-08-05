@@ -19,8 +19,8 @@ theme:
     repo: fontawesome/brands/twitter
   palette:
     - scheme: default
-      primary: teal
-      accent: teal
+      primary: lime
+      accent: lime
       toggle:
         icon: material/brightness-7
         name: 切换到暗色模式
@@ -34,6 +34,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.path
     - search.highlight
     - search.share
     - toc.integrate
