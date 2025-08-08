@@ -1,0 +1,7 @@
+/* 自定义样式 - 如果需要可以添加自定义CSS */
+
+/* 确保主题正常加载的基础样式 */
+:root {
+  --md-default-fg-color: var(--md-typeset-color);
+  --md-default-bg-color: var(--md-default-bg-color);
+}
