@@ -14,7 +14,7 @@ repo_name: Twitter
 theme:
   name: material
   language: zh
-  # … 其他 theme 配置 …
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/twitter
   palette:
@@ -43,7 +43,7 @@ theme:
 
 plugins:
   - search:
-      lang: ja
+      lang: zh
   - git-revision-date-localized:
       type: date
 
