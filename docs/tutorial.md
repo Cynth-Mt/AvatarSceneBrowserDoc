@@ -3,7 +3,7 @@
 
 ## 导入 Unity Package
 
-1. 从[Booth页面](https://github.com/cynlab/AvatarSceneBrowser/releases)下载最新的 `.unitypackage` 文件
+1. 从[Booth页面](https://cyn-m.booth.pm/items/5548166)下载最新的 `.unitypackage` 文件
 2. 在 Unity 编辑器中，选择 `Assets > Import Package > Custom Package...`
 3. 选择下载的 `.unitypackage` 文件
 4. 在导入窗口中确认所有文件都被选中，然后点击 `Import`
@@ -13,25 +13,15 @@
 
 
 
+## 使用
 
+### 截图
 
-## 验证安装
+导入后Scene窗口上方的toolbar会出现按钮
 
-@ -33,22 +23,163 @@ Avatar Scene Browser 插件提供多种安装方式，您可以根据自己的
-2. 点击该选项，应该能打开 Avatar Scene Browser 窗口
-3. 检查 Project 面板中是否存在 `Plugins/AvatarSceneBrowser` 文件夹
+1. 
 
-
-
-如果问题仍然存在，请[提交问题](https://github.com/cynlab/AvatarSceneBrowser/issues)并提供详细的错误信息。 
-
-# 使用方法
-
-## 编辑器使用
-
-Avatar Scene Browser 提供了丰富的编辑器功能，帮助您在开发过程中管理和预览化身与场景。
-
-### 打开浏览器窗口
+### 从unity菜单中打开窗口
 
 1. 在 Unity 菜单中选择 `Tools > Avatar Scene Browser > Open Browser`
 2. 或使用快捷键 `Ctrl+Shift+A` (Windows) / `Cmd+Shift+A` (Mac)
@@ -181,3 +171,7 @@ _manager.ExportAvatars(femaleAvatars, "Exports/FemaleCharacters");
 - **内存管理**：不再使用的化身资源调用 `ReleaseAvatar()` 方法释放内存
 - **动画过渡**：使用 `CrossFadeAnimation()` 方法实现平滑动画过渡
 - **场景组合**：使用 `SceneSetup` 类保存和恢复完整的场景和化身组合 
+
+
+
+如果问题仍然存在，请[提交问题](https://github.com/cynlab/AvatarSceneBrowser/issues)并提供详细的错误信息。 
