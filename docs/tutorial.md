@@ -16,7 +16,7 @@
 
 1. 点击 Scene 窗口工具栏中的截图按钮
 
-![工具栏截图按钮](toolbar01.png)
+![工具栏截图按钮](img/toolbar01.png)
 
 ### 从unity菜单中打开窗口
 
