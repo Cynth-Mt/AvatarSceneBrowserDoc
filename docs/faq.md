@@ -12,11 +12,19 @@ A: 是的，Avatar Scene Browser 支持 Built-in、URP 和 HDRP 渲染管线。�
 
 ### Q: 安装后找不到插件菜单？
 
-A: 请尝试以下步骤：
-- 确保重启了 Unity 编辑器
-- 检查控制台是否有错误信息
-- 验证插件文件是否正确导入 (应位于 `Assets/Plugins/AvatarSceneBrowser` 目录)
-- 确认您的 Unity 版本兼容本插件
+A: 插件入口已统一至 `Tools → CYN-lab → AvatarSceneBrowser/`。如未见到：
+- 重启 Unity 编辑器
+- 检查控制台错误
+- 确认插件位于 `Assets/CYN-lab/Avatar_Scene_Browser`
+- 确认 Unity 版本兼容
+
+### Q: 截图很多，占用大，切换格式后旧文件未清理？
+
+A: 在 v0.04 起，截图保存前会自动清理同名不同扩展（含 .meta），确保仅保留一个版本。可在 `Screenshot Settings...` 中切换 PNG/JPEG 和设置 JPEG 质量。
+
+### Q: 场景重命名/移动后丢失追踪怎么办？
+
+A: 已升级为 GUID 追踪系统，避免路径变化导致数据丢失。若历史数据存在问题，请使用“GUID Batch Update Tool”批量修复。参见《GUID 批量更新工具》页面。
 
 ## 使用问题
 
@@ -37,14 +45,7 @@ A: 动画兼容性问题通常由以下原因导致：
 
 A: 是的，您可以使用 `AvatarInstance` 类的属性设置方法动态修改化身外观和属性。例如 `SetColorProperty()` 可以修改颜色属性，`SetTextureProperty()` 可以更换纹理。修改后请调用 `ApplyProperties()` 使更改生效。
 
-### Q: 如何提高化身加载性能？
 
-A: 以下方法可以提高性能：
-- 使用 `PreloadAvatars()` 方法预加载常用资源
-- 降低化身模型多边形数量和纹理分辨率
-- 使用 LOD (Level of Detail) 系统
-- 适当调整 `OptimizationLevel` 参数
-- 增大缓存大小 (通过 `SetCacheSize()` 方法)
 
 ## 技术问题
 
@@ -64,12 +65,7 @@ A: 如果怀疑存在内存泄漏，请：
 - 使用 Unity Profiler 监控内存使用情况
 - 更新到最新版本的插件，旧版本可能存在已修复的内存问题
 
-### Q: 插件与其他资产商店插件兼容吗？
 
-A: Avatar Scene Browser 设计时考虑了兼容性，但某些特定插件可能存在冲突。常见的兼容性问题包括：
-- 与其他化身系统插件的冲突
-- 着色器不兼容
-- 自定义渲染管线修改导致的问题
 
 如果遇到兼容性问题，请联系我们的支持团队，提供详细的冲突情况和错误日志。
 

@@ -66,6 +66,8 @@ nav:
   - 主页: index.md
   - 教程:  tutorial.md
   - 场景浏览: scene-browsing.md
+  - 菜单结构: menu-structure.md
+  - GUID批量更新工具: guid-batch-update-tool.md
   - 常见问题: faq.md
   - 更新日志: release_log.md
 
