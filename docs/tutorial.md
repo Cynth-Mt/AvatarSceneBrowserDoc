@@ -33,15 +33,17 @@ Tools
 ![工具栏截图按钮](img/toolbar02.png)
 
 
-1. 点击 Scene 窗口工具栏中的截图按钮
+- 点击 Scene 窗口工具栏中的截图按钮
    
 ![截图按钮（亮色主题）](img/gui_Screenshot_light.png){ width="80" }
+--
+   - 或者在 Unity 菜单中选择 `Tools > Avatar Scene Browser > Open Browser`
+       - 使用按键 `刷新当前打开的Scene截图`
 
-1. 在 Unity 菜单中选择 `Tools > Avatar Scene Browser > Open Browser`
-2. 或使用快捷键 `Ctrl+Shift+A` (Windows) / `Cmd+Shift+A` (Mac)
+   ![刷新当前打开的场景截图](img/刷新当前打开的场景截图.png)
 
 
-## 主要功能
+### 主要功能
 
 - **截图预览** - 截取unity Scene的画面制作预览
 - **标签系统** - 为场景添加标签，支持多标签筛选和管理
@@ -51,6 +53,7 @@ Tools
 
 
 ### 截图预览
+截取的Scene的画面制在这里显示作预览
 
 
 
