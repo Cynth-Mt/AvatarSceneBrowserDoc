@@ -35,7 +35,7 @@ Tools
 
 1. 点击 Scene 窗口工具栏中的截图按钮
    
-<img src="img/gui_Screenshot_light.png" alt="截图按钮（亮色主题）" width="80" />
+![截图按钮（亮色主题）](img/gui_Screenshot_light.png){ width="80" }
 
 1. 在 Unity 菜单中选择 `Tools > Avatar Scene Browser > Open Browser`
 2. 或使用快捷键 `Ctrl+Shift+A` (Windows) / `Cmd+Shift+A` (Mac)
