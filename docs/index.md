@@ -9,6 +9,6 @@ Avatar Scene Browser 的初始目的是一款面向 Unity Editor 扩展。它�
 - **GUID管理** - 为了防止重命名或移动场景文件丢失数据，基于Unity GUID系统
 - **截图排序** - 对截图排序排序
 
- 适用版本（VRchat版本为准）
+开发版本
 
-- **Unity 2022.3.22f1 LTS** (VRChat 推荐版本)
+- **Unity 2022.3.22f1 LTS** (VRChat使用的unity版本)
