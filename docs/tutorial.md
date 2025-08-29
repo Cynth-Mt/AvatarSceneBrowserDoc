@@ -1,25 +1,41 @@
-# 教程
+# 使用教程
 
+## 导入 UnityPackage
 
-## 导入 Unity Package
+从[Booth页面](https://cyn-m.booth.pm/items/5548166)下载最新的 `.unitypackage` 文件
 
-1. 从[Booth页面](https://cyn-m.booth.pm/items/5548166)下载最新的 `.unitypackage` 文件
-2. 在 Unity 编辑器中，选择 `Assets > Import Package > Custom Package...`
-3. 选择下载的 `.unitypackage` 文件
-4. 在导入窗口中确认所有文件都被选中，然后点击 `Import`
+1. 在 Unity 编辑器中，选择 `Assets > Import Package > Custom Package...`
+2. 选择下载的 `.unitypackage` 文件
+3. 在导入窗口中确认所有文件都被选中，然后点击 `Import`
+
+或者直接双击打开`.unitypackage`
 
 ## 使用
+
+### 从unity菜单中打开窗口
+
+```
+Tools
+└── CYN-lab
+    └── AvatarSceneBrowser
+        ├── Main Window              # 主窗口 - 场景浏览和管理
+        ├── GUID Batch Update Tool   # GUID 批量更新工具
+        └── Screenshot Settings...   # 截图格式/质量设置
+```
 
 ### 截图
 
 导入后Scene窗口上方的toolbar会出现按钮
 
-1. 点击 Scene 窗口工具栏中的截图按钮
+
 
 ![工具栏截图按钮](img/toolbar01.png)
 ![工具栏截图按钮](img/toolbar02.png)
 
-### 从unity菜单中打开窗口
+
+1. 点击 Scene 窗口工具栏中的截图按钮
+   
+<img src="img/gui_Screenshot_light.png" alt="截图按钮（亮色主题）" width="80" />
 
 1. 在 Unity 菜单中选择 `Tools > Avatar Scene Browser > Open Browser`
 2. 或使用快捷键 `Ctrl+Shift+A` (Windows) / `Cmd+Shift+A` (Mac)
