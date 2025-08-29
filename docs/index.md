@@ -1,14 +1,14 @@
-# Avatar Scene Browser 插件文档
+# Avatar Scene Browser
 
-Avatar Scene Browser 的初始目的是一款面向 Unity Editor 扩展。它通过缩略图、标签系统，帮助您在拥有数百个场景的大型项目中也能一眼找到、打开并批量管理需要的场景与 Avatar 预制体。
+Avatar Scene Browser 是一款面向 VRChat 用户的 Unity Editor 扩展插件。
 
-## 主要功能
+针对每个 Avatar 的每套服装均采用独立 Unity 场景文件的使用场景，插件通过提供缩略图预览与标签管理系统，帮助用户高效、便捷地查找和管理大量的场景文件。
 
-- **截图预览** - 截取unity Scene的画面制作预览
-- **标签系统** - 为场景添加标签，支持多标签筛选和管理
-- **GUID管理** - 为了防止重命名或移动场景文件丢失数据，基于Unity GUID系统
-- **截图排序** - 对截图排序排序
+Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548166)
+
 
 开发版本
-
 - **Unity 2022.3.22f1 LTS** (VRChat使用的unity版本)
+
+
+请参见[教程](./tutorial.md)以了解如何导入和使用 Avatar Scene Browser。
