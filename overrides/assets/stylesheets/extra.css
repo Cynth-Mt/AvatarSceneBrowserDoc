@@ -12,28 +12,38 @@
   padding-top: 0.2rem;
 }
 
-/* 分组标题上方增加分割线（除第一个分组） */
+/* 分组标题上方增加整宽横线（除第一个分组） */
 .md-nav--primary > .md-nav__list > li[role="group"] + li[role="group"] {
-  border-top: 1px solid var(--md-default-fg-color--lighter, rgba(0,0,0,.12));
+  position: relative;
   margin-top: 0.6rem;
   padding-top: 0.6rem;
 }
-
-/* 暗色主题下的分割线 */
-[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > li[role="group"] + li[role="group"] {
-  border-top: 1px solid rgba(255,255,255,.12);
+.md-nav--primary > .md-nav__list > li[role="group"] + li[role="group"]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background: var(--md-default-fg-color--light, rgba(255,255,255,.12));
+  opacity: .8;
 }
 
 /* 如果没有被 Material 识别为 group，用小标题类名兜底 */
 .md-nav__title ~ .md-nav__list .md-nav__item--section {
-  border-top: 1px solid var(--md-default-fg-color--lighter, rgba(0,0,0,.12));
+  position: relative;
   margin-top: 0.6rem;
   padding-top: 0.6rem;
 }
-
-/* 暗色主题下的兜底分割线 */
-[data-md-color-scheme="slate"] .md-nav__title ~ .md-nav__list .md-nav__item--section {
-  border-top: 1px solid rgba(255,255,255,.12);
+.md-nav__title ~ .md-nav__list .md-nav__item--section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background: var(--md-default-fg-color--light, rgba(255,255,255,.12));
+  opacity: .8;
 }
 
 /* 条目前置一个占位图标（暂用方块） */
