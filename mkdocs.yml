@@ -63,14 +63,18 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - 主页: index.md
-  - 使用教程:  tutorial.md
-  - 场景浏览: scene-browsing.md
-  - 菜单结构: menu-structure.md
-  - GUID批量更新工具: guid-batch-update-tool.md
-  - 标签管理: tag-manager.md
-  - 常见问题: faq.md
-  - 更新日志: update-history.md
+  - 入门:
+      - 主页: index.md
+      - 使用教程: tutorial.md
+  - 核心功能:
+      - 场景浏览: scene-browsing.md
+      - 菜单结构: menu-structure.md
+      - 标签管理: tag-manager.md
+  - 工具:
+      - GUID批量更新工具: guid-batch-update-tool.md
+  - 支持:
+      - 常见问题: faq.md
+      - 更新日志: update-history.md
 
 extra:
   generator: true

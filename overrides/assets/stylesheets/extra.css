@@ -5,3 +5,38 @@
   --md-default-fg-color: var(--md-typeset-color);
   --md-default-bg-color: var(--md-default-bg-color);
 }
+
+/* 侧边栏分组上下分割线与条目图标占位 */
+.md-nav--primary {
+  /* 给整个主导航一个内边距，避免分割线贴边 */
+  padding-top: 0.2rem;
+}
+
+/* 分组标题上方增加分割线（除第一个分组） */
+.md-nav--primary > .md-nav__list > li[role="group"] + li[role="group"] {
+  border-top: 1px solid var(--md-default-fg-color--light, rgba(255,255,255,.08));
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+}
+
+/* 如果没有被 Material 识别为 group，用小标题类名兜底 */
+.md-nav__title ~ .md-nav__list .md-nav__item--section {
+  border-top: 1px solid var(--md-default-fg-color--light, rgba(255,255,255,.08));
+}
+
+/* 条目前置一个占位图标（暂用方块） */
+.md-nav__item .md-nav__link:before {
+  content: "▣";
+  display: inline-block;
+  width: 1rem;
+  margin-right: 0.25rem;
+  text-align: center;
+  opacity: .6;
+  font-size: .8rem;
+}
+
+/* 激活/悬停时稍微提亮 */
+.md-nav__item .md-nav__link:hover:before,
+.md-nav__item .md-nav__link--active:before {
+  opacity: .9;
+}

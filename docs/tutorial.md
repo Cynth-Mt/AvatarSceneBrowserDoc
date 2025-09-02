@@ -1,3 +1,7 @@
+---
+icon: material/book-open-variant
+---
+
 # 使用教程
 
 ## 导入 UnityPackage
