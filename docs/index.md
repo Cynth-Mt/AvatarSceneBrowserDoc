@@ -14,4 +14,16 @@ Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548
 
 - **Unity 2022.3.22f1 LTS** (VRChat使用的unity版本)
 
+## 导入 UnityPackage
+
+从[Booth页面](https://cyn-m.booth.pm/items/5548166)下载最新的 `.unitypackage` 文件
+
+1. 在 Unity 编辑器中，选择 `Assets > Import Package > Custom Package...`
+2. 选择下载的 `.unitypackage` 文件
+3. 在导入窗口中确认所有文件都被选中，然后点击 `Import`
+
+或者直接双击打开`.unitypackage`
+
+------
+
 请参见[使用教程](./tutorial.md)以了解如何导入和使用 Avatar Scene Browser。

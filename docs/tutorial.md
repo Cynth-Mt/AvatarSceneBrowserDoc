@@ -2,25 +2,11 @@
 icon: material/book-open-variant
 ---
 
-# 使用教程
-
-## 导入 UnityPackage
-
-从[Booth页面](https://cyn-m.booth.pm/items/5548166)下载最新的 `.unitypackage` 文件
-
-1. 在 Unity 编辑器中，选择 `Assets > Import Package > Custom Package...`
-2. 选择下载的 `.unitypackage` 文件
-3. 在导入窗口中确认所有文件都被选中，然后点击 `Import`
-
-或者直接双击打开`.unitypackage`
-
-------
-
-## 快速使用
 
 
+# 快速使用
 
-### 截图
+## 截图
 
 导入后Scene窗口上方的toolbar会出现按钮
 
@@ -71,7 +57,7 @@ icon: material/book-open-variant
 
 --------
 
-### unity菜单
+## unity菜单
 
 ```
 Tools
