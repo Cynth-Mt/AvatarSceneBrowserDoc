@@ -71,8 +71,9 @@ nav:
   - 菜单结构: menu-structure.md
   - GUID批量更新工具: guid-batch-update-tool.md
   - 标签管理: tag-manager.md
-  - 常见问题: faq.md
-  - 更新日志: update-history.md
+  - --------:
+      - 常见问题: faq.md
+      - 更新日志: update-history.md
 
 extra:
   generator: true
