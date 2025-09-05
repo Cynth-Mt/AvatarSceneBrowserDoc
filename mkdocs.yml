@@ -8,8 +8,8 @@ use_directory_urls: true
 # repo_url: https://github.com/Cynth-Mt/AvatarSceneBrowserDoc
 # edit_uri: edit/main/docs/
 
-repo_url: https://x.com/CYTHIAM246
-repo_name: Twitter
+#repo_url: https://x.com/CYTHIAM246
+#repo_name: Twitter
 
 theme:
   name: material
@@ -34,7 +34,6 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
-    - navigation.footer
     - navigation.path
     - navigation.tracking
     - search.highlight
