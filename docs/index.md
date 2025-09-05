@@ -1,3 +1,7 @@
+---
+icon: material/home
+---
+
 # Avatar Scene Browser
 
 Avatar Scene Browser 是一款面向 VRChat 用户的 Unity Editor 扩展插件。
