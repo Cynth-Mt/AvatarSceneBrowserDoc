@@ -1,7 +1,3 @@
----
-icon: material/menu
----
-
 # Avatar Scene Browser 菜单结构
 
 ## 菜单组织

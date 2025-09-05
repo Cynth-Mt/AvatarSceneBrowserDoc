@@ -1,7 +1,3 @@
----
-icon: material/history
----
-
 # 更新日志
 
 本文档记录了 Avatar Scene Browser 插件的所有重要变更。

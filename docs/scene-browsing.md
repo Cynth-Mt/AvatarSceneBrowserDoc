@@ -1,7 +1,3 @@
----
-icon: material/view-grid
----
-
 # 场景浏览
 
 ## 概述

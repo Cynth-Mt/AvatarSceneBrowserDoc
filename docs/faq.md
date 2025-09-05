@@ -1,7 +1,3 @@
----
-icon: material/help-circle
----
-
 # 常见问题
 
 ## 安装与设置
