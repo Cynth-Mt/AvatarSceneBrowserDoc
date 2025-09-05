@@ -34,10 +34,13 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.footer
     - navigation.path
+    - navigation.tracking
     - search.highlight
+    - search.suggest
     - search.share
-    - toc.integrate
+    - toc.follow
     - content.code.annotate
     - content.code.copy
 
