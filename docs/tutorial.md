@@ -14,18 +14,11 @@ icon: material/book-open-variant
 
 或者直接双击打开`.unitypackage`
 
-## 使用
+------
 
-### 从unity菜单中打开窗口
+## 快速使用
 
-```
-Tools
-└── CYN-lab
-    └── AvatarSceneBrowser
-        ├── Main Window              # 主窗口 - 场景浏览和管理
-        ├── GUID Batch Update Tool   # GUID 批量更新工具
-        └── Screenshot Settings...   # 截图格式/质量设置
-```
+
 
 ### 截图
 
@@ -75,7 +68,51 @@ Tools
 
 以下是在运行时使用 Avatar Scene Browser 的基本方法：
 
-### 
+
+--------
+
+### unity菜单
+
+```
+Tools
+└── CYN-lab
+    └── AvatarSceneBrowser
+        ├── Main Window              # 主窗口 - 场景浏览和管理
+        ├── GUID Batch Update Tool   # GUID 批量更新工具
+        └── Screenshot Settings...   # 截图格式/质量设置
+```
+
+### 1. Main Window（主窗口）
+**菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → Main Window`
+
+**功能**：
+- 场景截图浏览
+- 标签管理和筛选
+- 场景快速打开（支持双击）
+- 截图刷新与管理
+- 多语言支持
+
+**用途**：日常的场景管理和浏览
+
+### 2. GUID Batch Update Tool（GUID 批量更新工具）
+**菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → GUID Batch Update Tool`
+
+**功能**：
+- 检查 `scenes_data.json` 中的 GUID 状态
+- 批量修复 GUID/路径问题
+- 单个场景 GUID 修复
+- 场景文件状态监控与统计
+
+**用途**：维护和修复 GUID 数据，确保系统稳定性
+
+### 3. Screenshot Settings...（截图设置）
+**菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → Screenshot Settings...`
+
+**功能**：
+- 切换截图格式（PNG / JPEG）
+- 配置 JPEG 质量
+- 保存前清理同名不同扩展（含 .meta），保持单一版本
+
 
 
 
