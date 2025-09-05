@@ -77,5 +77,8 @@ nav:
 
 extra:
   generator: true
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/CYTHIAM246
 
 # Force rebuild - debug deployment 
