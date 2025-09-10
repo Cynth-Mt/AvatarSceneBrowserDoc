@@ -4,8 +4,6 @@ icon: material/history
 
 # 更新日志
 
-本文档记录了 Avatar Scene Browser 插件的所有重要变更。
-
 ## [0.02] - 2025.6.28
 
 - 新增路径与GUID双重错误检查，支持路径和GUID互相修复，场景丢失问题大幅减少
