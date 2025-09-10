@@ -1,5 +1,7 @@
 # GUID 批量更新工具  GUID管理
 
+![GUID工具](img/GUIDtool.png)
+
 本页汇总自项目内的《GUIDBatchUpdateTool_使用说明.md》，作为 Wiki 版本以便查阅与搜索。
 
 ## 打开工具
