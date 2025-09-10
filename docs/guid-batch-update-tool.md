@@ -28,7 +28,7 @@
 | **文件缺失** | 红色 | Scene文件不存在，可能已被删除或移动 |
 
 >当红色错误的时候MainWindow预览界面会出现警告
->![GUID工具](img/GUIDtool3.png){ width="40" }
+>![GUID工具](img/GUIDtool3.png)
 
 >
 >
