@@ -46,8 +46,3 @@
 - 建议在批量修复前备份 `scenes_data.json`
 - 确认对话框请认真阅读
 - 🟡 黄色 不影响打开
-
-## 要点
-
-- 检测：文件存在性 / GUID 有效性 / GUID 一致性
-- 修复：从 AssetDatabase 获取正确 GUID → 更新 `scenes_data.json` → 重建基于 GUID 的结构 → 保存
