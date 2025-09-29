@@ -31,3 +31,7 @@ icon: material/history
     - 菜单统一：所有入口归于 `Tools/CYN-lab/AvatarSceneBrowser/`
 - 引入事件总线，改善多个窗口之间的通信
 - 进行UI调整以提升标签的可读性
+
+
+## [0.1] - 2025.9
+リリース
