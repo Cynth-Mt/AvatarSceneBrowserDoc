@@ -30,32 +30,33 @@ A: 因为后续无法保证维护。
 
 ------
 
-为了展示显示使用的avatar和衣服：
+!!! info " 为了展示显示使用的avatar和衣服："
+   
 
-AVATAR:
+    AVATAR:
 
-[オリジナル3Dモデル「しなの」](https://ponderogen.booth.pm/items/6106863)
+    [オリジナル3Dモデル「しなの」](https://ponderogen.booth.pm/items/6106863)
 
-[オリジナル3Dモデル「桔梗」](https://ponderogen.booth.pm/items/3681787)
+    [オリジナル3Dモデル「桔梗」](https://ponderogen.booth.pm/items/3681787)
 
-[サメっ子オリジナル3Dモデル「rurune」-ルルネ-](https://booth.pm/ja/items/5957830)
+    [サメっ子オリジナル3Dモデル「rurune」-ルルネ-](https://booth.pm/ja/items/5957830)
 
-[オリジナル3Dモデル「マヌカ」](https://booth.pm/ja/items/5058077)
+    [オリジナル3Dモデル「マヌカ」](https://booth.pm/ja/items/5058077)
 
-[ライム -Lime-【オリジナル3Dモデル】](https://booth.pm/ja/items/4876459)
+    [ライム -Lime-【オリジナル3Dモデル】](https://booth.pm/ja/items/4876459)
 
-[オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
+    [オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
 
-衣服:
+    衣服:
 
-[かぷちや](https://capettiya.booth.pm/)
+    [かぷちや](https://capettiya.booth.pm/)
 
-[NookNook](https://osatoubox.booth.pm/)
+    [NookNook](https://osatoubox.booth.pm/)
 
-[てんぱすおおもり](https://tempasta.booth.pm/)
+    [てんぱすおおもり](https://tempasta.booth.pm/)
 
-[SilverSpace](https://silverspace.booth.pm/)
+    [SilverSpace](https://silverspace.booth.pm/)
 
-[Chocolate rice](https://chocolaterice.booth.pm/)
+    [Chocolate rice](https://chocolaterice.booth.pm/)
 
-[HINO shop](https://hino-shop.booth.pm/)
+    [HINO shop](https://hino-shop.booth.pm/)
