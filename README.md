@@ -1,7 +1,6 @@
 
 在线访问：https://cynth-mt.github.io/AvatarSceneBrowserDoc/
 
-
 ## 文档结构
 
 - `docs/` - 文档源文件

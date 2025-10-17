@@ -28,3 +28,36 @@ Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548
 
 请参见[使用教程](./tutorial.md)以了解如何导入和使用 Avatar Scene Browser。
 
+------
+
+
+!!! info " 为了展示显示使用的avatar和衣服："
+   
+
+    AVATAR:
+
+    [オリジナル3Dモデル「しなの」](https://ponderogen.booth.pm/items/6106863)
+
+    [オリジナル3Dモデル「桔梗」](https://ponderogen.booth.pm/items/3681787)
+
+    [サメっ子オリジナル3Dモデル「rurune」-ルルネ-](https://booth.pm/ja/items/5957830)
+
+    [オリジナル3Dモデル「マヌカ」](https://booth.pm/ja/items/5058077)
+
+    [ライム -Lime-【オリジナル3Dモデル】](https://booth.pm/ja/items/4876459)
+
+    [オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
+
+    衣服:
+
+    [かぷちや](https://capettiya.booth.pm/)
+
+    [NookNook](https://osatoubox.booth.pm/)
+
+    [てんぱすおおもり](https://tempasta.booth.pm/)
+
+    [SilverSpace](https://silverspace.booth.pm/)
+
+    [Chocolate rice](https://chocolaterice.booth.pm/)
+
+    [HINO shop](https://hino-shop.booth.pm/)

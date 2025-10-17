@@ -1,12 +1,17 @@
 # 场景浏览
 
-## 概述
 
 Avatar Scene Browser 中间的展示区域
+![场景浏览-全部场景](img/场景浏览-全部场景.png)
 
-## 场景库
+### ① 截图排序功能
+！！现在的时间排序功能是按照截图创建的时间来排序的，暂时还没有按照unityScene的更新时间排序
 
-### 场景收集
+### ② 截图显示区域
+
+
+
+#### 场景收集
 
 插件在主窗口中展示场景缩略图，并支持：
 - 基于标签过滤与统计
@@ -29,41 +34,11 @@ Avatar Scene Browser 中间的展示区域
 - 支持 PNG/JPEG 与可配置 JPEG 质量（见 Screenshot Settings...）
 - 保存前清理同名不同扩展（含 .meta），确保截图唯一性
 
-### 实时预览
 
-- 无需加载整个场景即可预览
-- 预览模式下可以自由导航
-- 支持轻量级场景加载
 
 ## 场景切换
 
-### 快速打开
 
-```csharp
-// 通过名称加载场景
-SceneBrowser.LoadScene("MySceneName");
-
-// 通过ID加载场景
-SceneBrowser.LoadScene(sceneId);
-```
-
-### 高级场景管理
-
-- 场景间平滑过渡
-- 场景叠加和添加式加载
-- 场景间对象持久化
-
-### 异步加载
-
-```csharp
-// 异步加载场景
-AsyncOperation operation = SceneBrowser.LoadSceneAsync("LargeScene");
-
-// 添加加载进度回调
-operation.completed += (op) => {
-    Debug.Log("场景加载完成!");
-};
-```
 
 ## 场景编辑
 
@@ -78,10 +53,3 @@ operation.completed += (op) => {
 - 捕获场景状态
 - 保存和加载场景配置
 - 创建场景变体
-
-## 最佳实践
-
-- 对场景进行模块化设计，便于组合使用
-- 使用场景预设来保存常用配置
-- 对大型场景进行分区，提高加载性能
-- 使用场景标签系统便于搜索和分类 
