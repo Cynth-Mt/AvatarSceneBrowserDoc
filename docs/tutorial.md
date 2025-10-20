@@ -36,7 +36,7 @@ icon: material/book-open-variant
 
 ### scene的截图展示区域
 截取的Scene的画面在这里，排列显示。
-[详情](scene-browsing.md)
+[详情](main-window.md)
 
 
 ### 标签系统

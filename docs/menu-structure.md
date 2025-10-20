@@ -25,7 +25,7 @@ Tools
 - 截图刷新与管理
 - 多语言支持
 
-**用途**：场景管理和浏览[详情](scene-browsing.md)
+**用途**：场景管理和浏览[详情](main-window.md)
 
 ### 2. GUID Batch Update Tool（GUID 批量更新工具）
 **菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → GUID Batch Update Tool`

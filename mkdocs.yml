@@ -17,6 +17,18 @@ theme:
   custom_dir: overrides
   icon:
     repo: fontawesome/brands/twitter
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.path
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - search.share
+    - toc.follow
+    - content.code.annotate
+    - content.code.copy
   palette:
     - scheme: default
       primary: green
@@ -30,22 +42,34 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到亮色模式
-  features:
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - navigation.path
-    - navigation.tracking
-    - search.highlight
-    - search.suggest
-    - search.share
-    - toc.follow
-    - content.code.annotate
-    - content.code.copy
 
 plugins:
   - search:
-      lang: zh
+      lang:
+        - zh
+        - ja
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+          nav_translations:
+            主页: ホーム
+            使用教程: 使用チュートリアル
+            主窗口（截图预览）: メインウィンドウ（スクリーンショットプレビュー）
+            菜单结构: メニュー構造
+            GUID批量更新工具: GUID一括更新ツール
+            标签管理工具: タグ管理ツール
+            常见问题: よくある質問
+            更新日志: 更新履歴
   - git-revision-date-localized:
       type: date
 
@@ -68,6 +92,7 @@ nav:
   - 主页: index.md
   - 使用教程:  tutorial.md
   - 主窗口（截图预览）: main-window.md
+  - 菜单结构: menu-structure.md
   - --------:
       - GUID批量更新工具: guid-batch-update-tool.md
       - 标签管理工具: tag-manager.md
