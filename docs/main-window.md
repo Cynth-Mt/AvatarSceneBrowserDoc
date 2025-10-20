@@ -1,5 +1,5 @@
 ---
-icon: material/ Human
+icon: material/human
 ---
 
 # 主窗口
