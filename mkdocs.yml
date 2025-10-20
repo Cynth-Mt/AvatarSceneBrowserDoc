@@ -67,7 +67,7 @@ markdown_extensions:
 nav:
   - 主页: index.md
   - 使用教程:  tutorial.md
-  - 场景浏览: scene-browsing.md
+  - 主窗口（截图预览）: main-window.md
   - --------:
       - GUID批量更新工具: guid-batch-update-tool.md
       - 标签管理工具: tag-manager.md

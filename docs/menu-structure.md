@@ -25,7 +25,7 @@ Tools
 - 截图刷新与管理
 - 多语言支持
 
-**用途**：日常的场景管理和浏览
+**用途**：场景管理和浏览[详情](scene-browsing.md)
 
 ### 2. GUID Batch Update Tool（GUID 批量更新工具）
 **菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → GUID Batch Update Tool`
@@ -36,7 +36,7 @@ Tools
 - 单个场景 GUID 修复
 - 场景文件状态监控与统计
 
-**用途**：维护和修复 GUID 数据，确保系统稳定性
+**用途**：维护和修复 GUID 数据，确保系统稳定性[详情](guid-batch-update-tool.md)
 
 ### 3. Screenshot Settings...（截图设置）
 **菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → Screenshot Settings...`

@@ -1,4 +1,4 @@
-# 场景浏览
+# 主窗口
 
 Avatar Scene Browser 中间的展示区域
 ![场景浏览-全部场景](img/场景浏览-全部场景.png)
@@ -20,5 +20,4 @@ Avatar Scene Browser 中间的展示区域
 ② tag显示区域
 
 ③ 错误显示
-
-丢失文件，详情[GUID工具](guid-batch-update-tool.md)
+- 丢失文件，详情[GUID工具](guid-batch-update-tool.md)
