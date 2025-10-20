@@ -1,4 +1,10 @@
+---
+icon: material/Human
+---
+
 # 主窗口
+
+## 中间区域
 
 Avatar Scene Browser 中间的展示区域
 ![场景浏览-全部场景](img/场景浏览-全部场景.png)
@@ -21,3 +27,10 @@ Avatar Scene Browser 中间的展示区域
 
 ③ 错误显示
 - 丢失文件，详情[GUID工具](guid-batch-update-tool.md)
+
+
+-----
+
+## 右侧详细信息
+
+关于这个截图的详细信息
