@@ -27,11 +27,11 @@ icon: material/history
 - 修复GUI刷新延迟和错误
 - 根据标签背景色自动选择黑/白文字。
 - 截图格式/质量设置：支持 PNG/JPEG 切换。清理机制：保存新截图时自动删除同名不同扩展（.png/.jpg/.jpeg）与 .meta，保持单一版本
-    - 设置窗口：新增 Screenshot Settings... 窗口
-    - 菜单统一：所有入口归于 `Tools/CYN-lab/AvatarSceneBrowser/`
+  - 设置窗口：新增 Screenshot Settings... 窗口
+  - 菜单统一：所有入口归于 `Tools/CYN-lab/AvatarSceneBrowser/`
 - 引入事件总线，改善多个窗口之间的通信
 - 进行UI调整以提升标签的可读性
 
+## [0.1] - 2025.10
 
-## [0.1] - 2025.9
-リリース
+BOOTH

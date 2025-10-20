@@ -34,25 +34,20 @@ icon: material/book-open-variant
 - **截图排序** - 对截图排序排序
 
 
-
-### 截图预览
-截取的Scene的画面制在这里显示作预览
-
+### scene的截图展示区域
+截取的Scene的画面在这里，排列显示。
+[详情](scene-browsing.md)
 
 
 ### 标签系统
 
-1. 切换到 `Scenes` 选项卡
+- 在截图预览下方显示
+- [管理标签](tag-manager.md)
 
 
-### 截图排序
+### GUID管理
 
-1. 使用顶部的筛选器按类别或标签筛选资源
-
-
-## 运行时使用
-
-以下是在运行时使用 Avatar Scene Browser 的基本方法：
+[GUID管理窗口](guid-batch-update-tool.md)
 
 
 --------
