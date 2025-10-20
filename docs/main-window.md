@@ -1,5 +1,5 @@
 ---
-icon: material/Human
+icon: material/ Human
 ---
 
 # 主窗口
@@ -32,5 +32,9 @@ Avatar Scene Browser 中间的展示区域
 -----
 
 ## 右侧详细信息
+
+
+
+![场景浏览-全部场景](img/场景浏览-详细栏.png)
 
 关于这个截图的详细信息
