@@ -26,15 +26,20 @@ Avatar Scene Browser 中间的展示区域
 ② tag显示区域
 
 ③ 错误显示
+
 - 丢失文件，详情[GUID工具](guid-batch-update-tool.md)
 
-
------
+---
 
 ## 右侧详细信息
 
-
+### 小按钮
 
 ![场景浏览-全部场景](img/场景浏览-详细栏.png)
 
-关于这个截图的详细信息
+① 在unity project里定位scene文件
+
+② 在系统的文件夹系统打开unity scene文件所在的位置
+
+③ 删除这个的截图的jpg/png和json中的数据。（不可恢复）
+清除tag本身请用[标签管理](tag-manager.md)
