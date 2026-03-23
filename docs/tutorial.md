@@ -2,110 +2,91 @@
 icon: material/book-open-variant
 ---
 
-
 # 快速开始
--------
-# 首先开始截图
 
-导入后Scene窗口上方的toolbar会出现按钮
+---
 
+## 第一步：截图
 
+导入后，Scene 窗口上方的 Toolbar 会出现两个按钮。
 
 ![工具栏截图按钮](img/toolbar01.png)
 ![工具栏截图按钮](img/toolbar02.png)
 
+点击截图按钮即可为当前场景拍摄缩略图：
 
-- 点击 Scene 窗口工具栏中的截图按钮
-   
 ![截图按钮（亮色主题）](img/gui_Screenshot_light.png){ width="80" }
---
-   - 或者在 Unity 菜单中选择 `Tools > Avatar Scene Browser > Open Browser`
-       - 使用按键 `刷新当前打开的Scene截图`
 
-   ![刷新当前打开的场景截图](img/刷新当前打开的场景截图.png)
+或者通过顶部菜单手动刷新：
 
+`Tools → CYN-lab → VRCAvatarSceneBrowser → Main Window`
 
+然后在主窗口中点击 **刷新当前打开的 Scene 截图**。
 
-## scene的截图展示区域
-截取的Scene的画面在这里，排列显示。
-[详情](main-window.md)
-
-
-## 增加标签
-
-- 可以在右侧的详细里面增加Tag
-- 后续的对Tag的编辑在[管理标签](tag-manager.md)
-
---------
-
-# 打开Scene
-
-Avatar Scene Browser 支持多种便捷的场景打开方式：
-
-### 1. **通过详情面板的“打开”按钮**  
-   - 在截图一览中选择某个场景，在右侧详情区域点击【打开此场景】按钮，即可直接打开对应的场景文件。
-
-### 2. **双击场景缩略图快速打开**  
-   - 在截图展示区域，直接双击任一场景的缩略图，即可立即跳转并加载该场景。
-
-### 3. **右键菜单“打开场景”**  
-   - 右键点击某个场景缩略图，会弹出上下文菜单，选择【打开场景】选项即可完成打开操作。  
-   - 右键菜单还支持其它操作（如复制路径、在资源管理器中显示等）。
+![刷新当前打开的场景截图](img/刷新当前打开的场景截图.png)
 
 ---
-详见：[主窗口介绍](main-window.md)
 
+## 第二步：查看截图库
 
+截取的 Scene 画面会在中间区域排列显示。
 
-### GUID管理
+[→ 主窗口详情](main-window.md)
 
-[GUID管理窗口](guid-batch-update-tool.md)
+---
 
+## 第三步：打开 Scene
 
---------
+支持多种方式打开场景：
 
-# unity菜单
+1. **双击缩略图** — 最快捷的方式
+2. **右键缩略图 → 打开场景**
+3. **选中场景 → 点击右侧"打开此场景"按钮**
+
+---
+
+## 第四步：添加标签
+
+选中场景后，在右侧详情面板可以为其添加 Tag。
+
+标签的编辑和管理请参见 [标签管理](tag-manager.md)。
+
+---
+
+## 多 Avatar 场景的使用
+
+如果一个 Unity 场景中包含多个 VRChat Avatar，可以为每种显示状态单独保存截图：
+
+1. 在 Hierarchy 中，只显示你想截图的那个 Avatar（其他隐藏）
+2. 点击工具栏截图按钮 → 自动识别并保存为 **Avatar 配置截图**（绿色边框）
+3. 对其他 Avatar 重复以上操作
+
+恢复 Avatar 状态：
+
+- 点击绿色边框的缩略图选中配置
+- 在右侧 **Avatar 配置** 区域点击 ▶ 按钮 → 自动切换 Avatar 的显示/隐藏
+
+!!! info "注意"
+    Avatar 配置功能需要 VRChat SDK（VRCSDK3）才能完整运行。不安装 SDK 的情况下，截图功能仍可正常使用。
+
+---
+
+## Unity 菜单
 
 ```
 Tools
 └── CYN-lab
-    └── AvatarSceneBrowser
-        ├── Main Window              # 主窗口 - 场景浏览和管理
+    └── VRCAvatarSceneBrowser
+        ├── Main Window              # 主窗口
         ├── GUID Batch Update Tool   # GUID 批量更新工具
         └── Screenshot Settings...   # 截图格式/质量设置
 ```
 
-### 1. Main Window（主窗口）
-**菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → Main Window`
+### Main Window（主窗口）
+日常的场景管理和浏览。
 
-**功能**：
-- 场景截图浏览
-- 标签管理和筛选
-- 场景快速打开（支持双击）
-- 截图刷新与管理
-- 多语言支持
+### GUID Batch Update Tool（GUID 批量更新工具）
+当场景文件被重命名或移动后，用于修复数据关联。[→ 详情](guid-batch-update-tool.md)
 
-**用途**：日常的场景管理和浏览。
-
-
-### 2. GUID Batch Update Tool（GUID 批量更新工具）
-**菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → GUID Batch Update Tool`
-
-**功能**：
-- 检查 `scenes_data.json` 中的 GUID 状态
-- 批量修复 GUID/路径问题
-- 单个场景 GUID 修复
-- 场景文件状态监控与统计
-
-**用途**：维护和修复 GUID 数据，确保系统稳定性。
-请参见[GUID批量更新工具](./guid-batch-update-tool.md)
-
-### 3. Screenshot Settings...（截图设置）
-**菜单路径**：`Tools → CYN-lab → AvatarSceneBrowser → Screenshot Settings...`
-
-**功能**：
-- 切换截图格式（PNG / JPEG）
-- 配置 JPEG 质量
-- 保存前清理同名不同扩展（含 .meta），保持单一版本
-
-
+### Screenshot Settings...（截图设置）
+切换截图格式（PNG / JPEG）及设置 JPEG 质量。
