@@ -48,6 +48,7 @@ plugins:
       lang:
         - zh
         - ja
+        - en
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -69,6 +70,32 @@ plugins:
             标签管理工具: タグ管理ツール
             常见问题: よくある質問
             更新日志: 更新履歴
+        - locale: en
+          name: English
+          build: true
+          site_description: VRC Avatar Scene Browser documentation
+          nav_translations:
+            主页: Home
+            使用教程: Quick Start
+            主窗口（截图预览）: Main Window
+            GUID批量更新工具: GUID Batch Update Tool
+            标签管理工具: Tag Manager
+            常见问题: FAQ
+            更新日志: Changelog
+          theme:
+            palette:
+              - scheme: default
+                primary: green
+                accent: teal
+                toggle:
+                  icon: material/brightness-7
+                  name: Switch to dark mode
+              - scheme: slate
+                primary: green
+                accent: teal
+                toggle:
+                  icon: material/brightness-4
+                  name: Switch to light mode
   - git-revision-date-localized:
       type: date
 

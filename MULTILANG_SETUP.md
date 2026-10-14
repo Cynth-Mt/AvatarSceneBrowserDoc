@@ -4,29 +4,24 @@
 
 ✅ 简体中文 (zh) - 默认语言
 ✅ 日本語 (ja) - 已完成
+✅ English (en) - 已完成
 
 ## 文件结构 / File Structure
 
 多语言文档使用后缀命名方式：
 
-```
+```text
 docs/
-├── index.md          # 中文版（默认）
-├── index.ja.md       # 日文版
-├── tutorial.md       # 中文版（默认）
-├── tutorial.ja.md    # 日文版
-├── main-window.md
-├── main-window.ja.md
-├── menu-structure.md
-├── menu-structure.ja.md
-├── guid-batch-update-tool.md
-├── guid-batch-update-tool.ja.md
-├── tag-manager.md
-├── tag-manager.ja.md
-├── faq.md
-├── faq.ja.md
-├── update-history.md
-└── update-history.ja.md
+├── index.md                  # 中文版（默认）
+├── index.ja.md               # 日文版
+├── index.en.md               # 英文版
+├── tutorial.md / tutorial.ja.md / tutorial.en.md
+├── main-window.md / main-window.ja.md / main-window.en.md
+├── guid-batch-update-tool.md / guid-batch-update-tool.ja.md / guid-batch-update-tool.en.md
+├── tag-manager.md / tag-manager.ja.md / tag-manager.en.md
+├── faq.md / faq.ja.md / faq.en.md
+├── update-history.md / update-history.ja.md / update-history.en.md
+└── img/                      # 三种语言共用图片
 ```
 
 ## 安装依赖 / Install Dependencies
@@ -67,7 +62,7 @@ mkdocs build
 
 ## 添加新语言 / Adding New Languages
 
-如果需要添加新语言（例如英语）：
+如果需要添加其他语言：
 
 1. 在 `mkdocs.yml` 的 `plugins.i18n.languages` 中添加新语言配置
 2. 为每个文档创建对应的翻译文件（例如 `index.en.md`）
@@ -85,8 +80,8 @@ mkdocs build
 
 1. **图片共享**：所有语言版本共享 `docs/img/` 目录下的图片
 2. **导航翻译**：导航菜单的翻译在 `mkdocs.yml` 的 `nav_translations` 中配置
-3. **搜索功能**：搜索功能支持中文和日文分词
-4. **URL结构**：不同语言的页面会生成不同的URL路径（例如 `/ja/` 前缀）
+3. **搜索功能**：搜索功能已配置中文、日文和英文
+4. **URL结构**：不同语言的页面会生成不同的URL路径（中文位于根路径，日文使用 `/ja/`，英文使用 `/en/`）
 
 ## 参考文档 / References
 
