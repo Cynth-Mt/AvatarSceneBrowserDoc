@@ -2,19 +2,22 @@
 icon: material/home
 ---
 
-# Avatar Scene Browser
+# VRC Avatar Scene Browser
 
-Avatar Scene Browser 是一款面向 VRChat 用户的 Unity Editor 扩展插件。
+VRC Avatar Scene Browser 是一款面向 VRChat 用户的 Unity Editor 扩展插件。
 
-针对每个 Avatar 的每套服装均采用独立 Unity 场景文件的使用场景，插件通过提供缩略图预览与标签管理系统，帮助用户高效、便捷地查找和管理大量的 Avatar 场景文件。
+为场景拍摄缩略图后，就可以在插件窗口中看图找场景、添加标签，再双击打开。
 
-**v0.2 起支持在同一场景中管理多个 VRChat Avatar 的截图与状态切换。**
+如果你习惯把不同 Avatar 或不同服装分别放在独立的 Unity 场景里，可以用它整理这些场景。同一个场景里放了多个 Avatar 时，也可以分别保存它们的显示状态和截图。
+
+**当前主窗口标注版本为 v0.23。** 插件界面支持中文、日文和英文，可在主窗口顶部切换。
 
 Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548166)
 
-开发版本
+开发环境
 
-- **Unity 2022.3.22f1 LTS** (VRChat 使用的 Unity 版本)
+- **Unity 2022.3.22f1 LTS**
+- Avatar 识别和配置功能需要 **VRChat SDK（VRCSDK3）**；未安装 SDK 时仍可使用普通场景截图。
 
 ## 导入 UnityPackage
 
@@ -28,7 +31,7 @@ Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548
 
 ------
 
-请参见[使用教程](./tutorial.md)以了解如何导入和使用 Avatar Scene Browser。
+请参见[使用教程](./tutorial.md)了解截图、打开场景和添加标签的操作。
 
 ------
 
