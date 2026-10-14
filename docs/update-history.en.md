@@ -41,7 +41,7 @@ Added usage documentation.
 
 - Added screenshots and saved configurations for different avatars in the same scene.
 - Double-click a configuration thumbnail or click ▶ in the configuration list to restore the avatars' active states.
-- Avatar configuration screenshots have green borders; standard scene screenshots have blue borders.
+- Selected avatar configuration screenshots have green borders; selected standard scene screenshots have blue borders.
 - The details panel shows whether a configuration contains one active avatar or a combination of avatars.
 - Each avatar configuration can have its own tags.
 

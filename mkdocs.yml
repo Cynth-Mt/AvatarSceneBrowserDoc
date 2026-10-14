@@ -1,5 +1,5 @@
 site_name: AvatarSceneBrowserDoc
-site_description: AvatarSceneBrowser插件文档
+site_description: VRC Avatar Scene Browser 使用说明
 site_author: Cyn-thiatMt
 site_url: https://cynth-mt.github.io/AvatarSceneBrowserDoc/
 use_directory_urls: true
@@ -62,10 +62,27 @@ plugins:
         - locale: ja
           name: 日本語
           build: true
+          site_description: VRC Avatar Scene Browser の使い方
+          theme:
+            palette:
+              - scheme: default
+                primary: green
+                accent: teal
+                toggle:
+                  icon: material/brightness-7
+                  name: ダークモードに切り替え
+              - scheme: slate
+                primary: green
+                accent: teal
+                toggle:
+                  icon: material/brightness-4
+                  name: ライトモードに切り替え
           nav_translations:
+            工具: ツール
+            参考: リファレンス
             主页: ホーム
-            使用教程: 使用チュートリアル
-            主窗口（截图预览）: メインウィンドウ（スクリーンショットプレビュー）
+            使用教程: クイックスタート
+            主窗口: メインウィンドウ
             GUID批量更新工具: GUID一括更新ツール
             标签管理工具: タグ管理ツール
             常见问题: よくある質問
@@ -75,9 +92,11 @@ plugins:
           build: true
           site_description: VRC Avatar Scene Browser documentation
           nav_translations:
+            工具: Tools
+            参考: Reference
             主页: Home
             使用教程: Quick Start
-            主窗口（截图预览）: Main Window
+            主窗口: Main Window
             GUID批量更新工具: GUID Batch Update Tool
             标签管理工具: Tag Manager
             常见问题: FAQ
@@ -117,13 +136,16 @@ markdown_extensions:
 nav:
   - 主页: index.md
   - 使用教程:  tutorial.md
-  - 主窗口（截图预览）: main-window.md
-  - --------:
+  - 主窗口: main-window.md
+  - 工具:
       - GUID批量更新工具: guid-batch-update-tool.md
       - 标签管理工具: tag-manager.md
-  - --------:
+  - 参考:
       - 常见问题: faq.md
       - 更新日志: update-history.md
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   generator: true

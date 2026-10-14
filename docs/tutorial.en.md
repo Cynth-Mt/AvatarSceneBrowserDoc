@@ -47,7 +47,7 @@ For a standard scene screenshot, you can:
 2. **Right-click the thumbnail → Open Scene**.
 3. **Select the thumbnail → click Open This Scene** on the right.
 
-Double-clicking an avatar configuration thumbnail with a green border opens the scene and restores that configuration's active avatars. To open the scene without loading a configuration, use **Open Scene Only** in the context menu or **Open This Scene** on the right.
+Double-clicking an avatar configuration thumbnail opens the scene and restores that configuration's active avatars. To open the scene without loading a configuration, use **Open Scene Only** in the context menu or **Open This Scene** on the right.
 
 When switching scenes, Unity prompts you to save if the current scene has unsaved changes.
 
@@ -69,7 +69,7 @@ The current version counts all VRChat avatars in the scene, including inactive o
 
 To save a screenshot for each avatar:
 
-1. Select the avatar's root object in the Hierarchy. Activate the avatar you want to capture and deactivate the others using the checkbox at the top of the Inspector. This is different from the eye icon in the Hierarchy.
+1. Select the avatar's root object in the Hierarchy. Activate the avatar you want to capture and deactivate the others using the checkbox at the top of the Inspector. This is different from the eye icon in the Hierarchy. If the avatar has a parent object, keep that parent active too; loading a configuration does not activate parent objects.
 2. Frame the Scene view and click the toolbar screenshot button.
 3. Repeat for the other avatars. Each configuration gets its own thumbnail in the gallery.
 
@@ -80,7 +80,7 @@ You can also activate several avatars at once and confirm the prompt to save the
 
 There are three ways to restore a configuration:
 
-- Double-click its green-bordered thumbnail.
+- Double-click the configuration's thumbnail.
 - Right-click its thumbnail and choose **Open Scene and Load Configuration**.
 - Select a thumbnail, then click **▶** beside the configuration in the **Avatar Configuration** panel on the right.
 

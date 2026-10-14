@@ -6,8 +6,6 @@ icon: material/human
 
 ## Title bar
 
-![Main window toolbar](img/场景浏览-全部场景.png)
-
 The controls at the top let you switch between Chinese, Japanese, and English and perform these actions:
 
 - **Refresh Current SS**: captures the current Scene view. If the scene contains at least two avatars, it saves the current avatar configuration.
@@ -22,9 +20,11 @@ The controls at the top let you switch between Chinese, Japanese, and English an
 
 ## Center panel: screenshot gallery
 
+![Screenshot gallery](img/场景浏览-全部场景.png)
+
 The gallery shows recorded scene screenshots and avatar configuration screenshots. Multiple configurations from the same scene appear as separate thumbnails.
 
-**There are two thumbnail types:**
+**A selected thumbnail has a border indicating its type. Unselected thumbnails do not have a colored border:**
 
 - **Blue border**: a standard scene screenshot, normally used for scenes with one or no avatars.
 - **Green border**: an avatar configuration screenshot, recording a combination of active avatars in a scene containing multiple avatars.

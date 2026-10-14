@@ -47,7 +47,7 @@ icon: material/book-open-variant
 2. **右键缩略图 → 打开场景**。
 3. **选中缩略图 → 点击右侧“打开此场景”**。
 
-如果双击的是绿色边框的 Avatar 配置截图，会打开场景并加载对应的 Avatar 显示状态。只想打开场景时，使用右键菜单中的 **仅打开场景**，或右侧的 **打开此场景** 按钮。
+如果双击的是 Avatar 配置截图，会打开场景并加载对应的 Avatar 显示状态。只想打开场景时，使用右键菜单中的 **仅打开场景**，或右侧的 **打开此场景** 按钮。
 
 切换场景时，如果当前场景有未保存的修改，Unity 会提示是否保存。
 
@@ -69,7 +69,7 @@ icon: material/book-open-variant
 
 为场景中的不同 Avatar 保存截图：
 
-1. 在 Hierarchy 中，用 Avatar 根对象的激活开关打开要拍摄的 Avatar，关闭其他 Avatar。这里指 Inspector 顶部的勾选框，不是 Hierarchy 的眼睛图标。
+1. 在 Hierarchy 中，用 Avatar 根对象的激活开关打开要拍摄的 Avatar，关闭其他 Avatar。这里指 Inspector 顶部的勾选框，不是 Hierarchy 的眼睛图标。若 Avatar 放在其他对象下面，也要保持父对象激活；加载配置不会自动打开父对象。
 2. 调整 Scene 视图，点击工具栏截图按钮。
 3. 对其他 Avatar 重复操作，画廊中会出现各自的配置截图。
 
@@ -80,7 +80,7 @@ icon: material/book-open-variant
 
 恢复 Avatar 状态有三种方式：
 
-- 双击绿色边框的配置缩略图。
+- 双击配置缩略图。
 - 右键配置缩略图，选择 **打开场景并加载配置**。
 - 选中缩略图，在右侧 **Avatar 配置** 区域点击对应行的 **▶**。
 

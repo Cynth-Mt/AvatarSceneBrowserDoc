@@ -30,6 +30,10 @@ Use the active checkbox on each avatar's root object to set its state. Toggling 
 
 A: In the same scene, the same combination of active avatars updates the existing configuration. A different combination creates a new one. Changing only the view angle, outfit, or pose does not create a separate configuration record.
 
+### Q: Can one avatar screenshot overwrite another?
+
+A: Currently, image filenames for configurations with one active avatar use the scene name and avatar name. Two avatars with the same name in one scene, or identically named avatars in identically named scenes in different folders, can write to the same image file. Use distinct scene and avatar names to avoid this. This applies to configurations with one active avatar in a scene containing multiple avatars, not standard screenshots of scenes that contain only one avatar.
+
 ### Q: How is double-clicking different from Open This Scene?
 
 A: Double-clicking a standard screenshot opens the scene. Double-clicking an avatar configuration screenshot also loads the configuration. **Open This Scene** and **Open Scene Only** open the scene without restoring a configuration.

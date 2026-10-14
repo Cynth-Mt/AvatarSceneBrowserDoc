@@ -1,0 +1,17 @@
+/* Let translated table headings fit on narrow screens. */
+@media screen and (max-width: 44.984375em) {
+  .md-typeset table:not([class]) th {
+    min-width: 0;
+  }
+
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    padding: 0.6em 0.5em;
+  }
+
+  /* Keep the short color column readable in the four-column status table. */
+  .md-typeset table:not([class]) th:nth-child(2):nth-last-child(3),
+  .md-typeset table:not([class]) td:nth-child(2):nth-last-child(3) {
+    white-space: nowrap;
+  }
+}
