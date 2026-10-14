@@ -2,38 +2,40 @@
 icon: material/home
 ---
 
-# Avatar Scene Browser
+# VRC Avatar Scene Browser
 
-Avatar Scene Browser は、VRChat ユーザー向けの Unity Editor 拡張プラグインです。
+VRC Avatar Scene Browser は、VRChat ユーザー向けの Unity Editor 拡張プラグインです。
 
-各アバターの各衣装を独立した Unity シーンファイルとして管理する使用シーンに対応し、サムネイルプレビューとタグ管理システムを提供することで、大量のアバターシーンファイルの検索と管理を効率的かつ便利に行うことができます。
+シーンのスクリーンショットを撮っておくと、プラグインのウィンドウで画像を見ながらシーンを探し、タグを付けたり、ダブルクリックで開いたりできます。
 
-**v0.2 より、同一シーン内に複数の VRChat Avatar がいる場合の、スクリーンショット管理と状態切り替えに対応しました。**
+アバターや衣装ごとに Unity シーンを分けている場合は、それらの整理に使えます。1つのシーンに複数のアバターを置いている場合は、表示状態の組み合わせとスクリーンショットをそれぞれ保存できます。
+
+**現在、メインウィンドウに表示されるバージョンは v0.23 です。** UI は中国語・日本語・英語に対応しており、ウィンドウ上部で切り替えられます。
 
 Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548166)
 
-開発バージョン
+開発環境
 
-- **Unity 2022.3.22f1 LTS** (VRChatで使用されているUnityバージョン)
+- **Unity 2022.3.22f1 LTS**
+- アバターの検出と設定の保存には **VRChat SDK（VRCSDK3）** が必要です。SDK がなくても、通常のシーンスクリーンショットは撮影できます。
 
 ## UnityPackage のインポート
 
-[Boothページ](https://cyn-m.booth.pm/items/5548166)から最新の `.unitypackage` ファイルをダウンロード
+[Booth ページ](https://cyn-m.booth.pm/items/5548166)から最新の `.unitypackage` ファイルをダウンロードします。
 
-1. Unity エディタで、`Assets > Import Package > Custom Package...` を選択
-2. ダウンロードした `.unitypackage` ファイルを選択
-3. インポートウィンドウですべてのファイルが選択されていることを確認し、`Import` をクリック
+1. Unity エディタで `Assets > Import Package > Custom Package...` を選びます。
+2. ダウンロードした `.unitypackage` ファイルを選びます。
+3. すべてのファイルにチェックが入っていることを確認し、`Import` をクリックします。
 
-または、`.unitypackage` を直接ダブルクリックして開く
-
-------
-
-Avatar Scene Browser のインポートと使用方法については、[使用チュートリアル](./tutorial.md)を参照してください。
+`.unitypackage` をダブルクリックしてインポートすることもできます。
 
 ------
 
+撮影、シーンの開き方、タグの追加については、[クイックスタート](./tutorial.md)をご覧ください。
 
-!!! info " デモで使用したアバターと衣装："
+------
+
+!!! info "掲載画像で使用しているアバターと衣装"
    
 
     AVATAR:
@@ -50,7 +52,7 @@ Avatar Scene Browser のインポートと使用方法については、[使用�
 
     [オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
 
-    衣服:
+    衣装:
 
     [かぷちや](https://capettiya.booth.pm/)
 
