@@ -4,17 +4,32 @@ icon: material/home
 
 # VRC Avatar Scene Browser
 
-VRC Avatar Scene Browser 是一款面向 VRChat 用户的 Unity Editor 扩展插件。
+通过截图整理 Unity 场景，添加标签，双击即可打开。多个 Avatar 共用一个场景时，还可以保存并恢复不同的激活状态组合。
 
-为场景拍摄缩略图后，就可以在插件窗口中看图找场景、添加标签，再双击打开。
+本文对应插件 **v0.23** · [更新日志](update-history.md)
+{ .asb-version }
 
-如果你习惯把不同 Avatar 或不同服装分别放在独立的 Unity 场景里，可以用它整理这些场景。同一个场景里放了多个 Avatar 时，也可以分别保存它们的显示状态和截图。
+<div class="asb-start" markdown>
 
-**当前主窗口标注版本为 v0.23。** 插件界面支持中文、日文和英文，可在主窗口顶部切换。
+- **[快速开始](tutorial.md)**
 
-Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548166)
+    拍摄第一张截图，找到并打开场景。
 
-开发环境
+- **[主窗口说明](main-window.md)**
+
+    了解截图浏览、筛选和配置操作。
+
+- **[常见问题](faq.md)**
+
+    查看使用限制和常见问题的处理方法。
+
+</div>
+
+![场景截图浏览区域](img/场景浏览-全部场景.png)
+
+## 环境与语言
+
+插件界面支持中文、日文和英文，可在主窗口顶部切换。
 
 - **Unity 2022.3.22f1 LTS**
 - Avatar 识别和配置功能需要 **VRChat SDK（VRCSDK3）**；未安装 SDK 时仍可使用普通场景截图。
@@ -29,40 +44,23 @@ Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548
 
 或者直接双击打开 `.unitypackage`
 
-------
 
-请参见[使用教程](./tutorial.md)了解截图、打开场景和添加标签的操作。
+## 截图中使用的 Avatar 和服装
 
-------
+### Avatar
 
+- [オリジナル3Dモデル「しなの」](https://ponderogen.booth.pm/items/6106863)
+- [オリジナル3Dモデル「桔梗」](https://ponderogen.booth.pm/items/3681787)
+- [サメっ子オリジナル3Dモデル「rurune」-ルルネ-](https://booth.pm/ja/items/5957830)
+- [オリジナル3Dモデル「マヌカ」](https://booth.pm/ja/items/5058077)
+- [ライム -Lime-【オリジナル3Dモデル】](https://booth.pm/ja/items/4876459)
+- [オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
 
-!!! info " 为了展示显示使用的 avatar 和衣服："
-   
+### 服装
 
-    AVATAR:
-
-    [オリジナル3Dモデル「しなの」](https://ponderogen.booth.pm/items/6106863)
-
-    [オリジナル3Dモデル「桔梗」](https://ponderogen.booth.pm/items/3681787)
-
-    [サメっ子オリジナル3Dモデル「rurune」-ルルネ-](https://booth.pm/ja/items/5957830)
-
-    [オリジナル3Dモデル「マヌカ」](https://booth.pm/ja/items/5058077)
-
-    [ライム -Lime-【オリジナル3Dモデル】](https://booth.pm/ja/items/4876459)
-
-    [オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
-
-    衣服:
-
-    [かぷちや](https://capettiya.booth.pm/)
-
-    [NookNook](https://osatoubox.booth.pm/)
-
-    [てんぱすおおもり](https://tempasta.booth.pm/)
-
-    [SilverSpace](https://silverspace.booth.pm/)
-
-    [Chocolate rice](https://chocolaterice.booth.pm/)
-
-    [HINO shop](https://hino-shop.booth.pm/)
+- [かぷちや](https://capettiya.booth.pm/)
+- [NookNook](https://osatoubox.booth.pm/)
+- [てんぱすおおもり](https://tempasta.booth.pm/)
+- [SilverSpace](https://silverspace.booth.pm/)
+- [Chocolate rice](https://chocolaterice.booth.pm/)
+- [HINO shop](https://hino-shop.booth.pm/)

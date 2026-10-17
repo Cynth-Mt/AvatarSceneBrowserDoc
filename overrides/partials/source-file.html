@@ -1,0 +1,6 @@
+{% set labels = {"zh": "文档更新时间", "ja": "ドキュメント更新日", "en": "Documentation updated"} %}
+{% if page.meta.git_revision_date_localized %}
+<aside class="md-source-file">
+  {{ labels.get(config.theme.language, labels["en"]) }}：{{ page.meta.git_revision_date_localized }}
+</aside>
+{% endif %}

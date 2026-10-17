@@ -18,8 +18,9 @@ The window has two panels:
 
 Create tags in the main window's right panel: enter a name, choose a color, and click **Create New Tag**. The new tag is automatically added to the selected scene or avatar configuration.
 
-!!! info "What the usage count includes"
-    The current count includes scene tags only, not tags on individual avatar configurations. A tag shown as unused may still be used by a configuration.
+**What the usage count includes**
+
+The current count includes scene tags only, not tags on individual avatar configurations. A tag shown as unused may still be used by a configuration.
 
 ### Deleting tags
 

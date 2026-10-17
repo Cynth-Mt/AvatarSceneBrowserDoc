@@ -75,8 +75,9 @@ To save a screenshot for each avatar:
 
 You can also activate several avatars at once and confirm the prompt to save them as a combination. If all avatars are inactive, confirming the prompt saves a **No Avatar** configuration.
 
-!!! info "Taking another screenshot of the same combination"
-    If the same set of avatars is active, the plugin updates the existing configuration's image instead of creating a duplicate. To update a configuration, load it first, then use the toolbar screenshot button or **Refresh Current SS** at the top of the main window.
+**Taking another screenshot of the same combination**
+
+If the same set of avatars is active, the plugin updates the existing configuration's image instead of creating a duplicate. To update a configuration, load it first, then use the toolbar screenshot button or **Refresh Current SS** at the top of the main window.
 
 There are three ways to restore a configuration:
 
@@ -86,8 +87,9 @@ There are three ways to restore a configuration:
 
 Configurations save the active state of avatar root objects. They do not restore outfits, materials, poses, or the Scene view angle. Save the Unity scene if you want to keep the state you loaded.
 
-!!! info "SDK requirement"
-    Avatar configurations require VRChat SDK (VRCSDK3). Without it, you can still take screenshots, but avatar configurations are not saved.
+**SDK requirement**
+
+Avatar configurations require VRChat SDK (VRCSDK3). Without it, you can still take screenshots, but avatar configurations are not saved.
 
 ---
 

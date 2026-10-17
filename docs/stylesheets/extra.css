@@ -15,3 +15,39 @@
     white-space: nowrap;
   }
 }
+
+/* Shared spacing and restrained image treatment in both color schemes. */
+.md-grid { max-width: 64rem; }
+.md-typeset h2 { margin-top: 2.2em; }
+.md-typeset h3 { margin-top: 1.6em; }
+.md-typeset p > img {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+}
+.md-typeset .asb-version {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+.md-typeset .asb-start > ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
+  padding: 0;
+  margin: 1.2rem 0;
+  list-style: none;
+}
+.md-typeset .asb-start > ul > li {
+  margin: 0;
+  padding: 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+.md-typeset .asb-start p { margin: 0; }
+.md-typeset .asb-start p + p {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .asb-start > ul { grid-template-columns: 1fr; }
+}

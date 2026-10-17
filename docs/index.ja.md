@@ -4,17 +4,32 @@ icon: material/home
 
 # VRC Avatar Scene Browser
 
-VRC Avatar Scene Browser は、VRChat ユーザー向けの Unity Editor 拡張プラグインです。
+スクリーンショットを見ながら Unity シーンを整理し、タグで絞り込んでダブルクリックで開けます。1つのシーンに複数のアバターがある場合は、アクティブ状態の組み合わせを保存・復元できます。
 
-シーンのスクリーンショットを撮っておくと、プラグインのウィンドウで画像を見ながらシーンを探し、タグを付けたり、ダブルクリックで開いたりできます。
+対象バージョン：**v0.23** · [更新履歴](update-history.md)
+{ .asb-version }
 
-アバターや衣装ごとに Unity シーンを分けている場合は、それらの整理に使えます。1つのシーンに複数のアバターを置いている場合は、表示状態の組み合わせとスクリーンショットをそれぞれ保存できます。
+<div class="asb-start" markdown>
 
-**現在、メインウィンドウに表示されるバージョンは v0.23 です。** UI は中国語・日本語・英語に対応しており、ウィンドウ上部で切り替えられます。
+- **[クイックスタート](tutorial.md)**
 
-Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548166)
+    撮影からシーンを開くまでの基本操作。
 
-開発環境
+- **[メインウィンドウ](main-window.md)**
+
+    画像の一覧、絞り込み、Avatar 設定の操作。
+
+- **[よくある質問](faq.md)**
+
+    機能の制限や、困ったときの対処方法。
+
+</div>
+
+![シーンのスクリーンショット一覧](img/场景浏览-全部场景.png)
+
+## 環境と言語
+
+UI は中国語・日本語・英語に対応しています。メインウィンドウ上部で切り替えられます。
 
 - **Unity 2022.3.22f1 LTS**
 - アバターの検出と設定の保存には **VRChat SDK（VRCSDK3）** が必要です。SDK がなくても、通常のシーンスクリーンショットは撮影できます。
@@ -29,39 +44,23 @@ Booth：[https://cyn-m.booth.pm/items/5548166](https://cyn-m.booth.pm/items/5548
 
 `.unitypackage` をダブルクリックしてインポートすることもできます。
 
-------
 
-撮影、シーンの開き方、タグの追加については、[クイックスタート](./tutorial.md)をご覧ください。
+## 掲載画像で使用しているアバターと衣装
 
-------
+### アバター
 
-!!! info "掲載画像で使用しているアバターと衣装"
-   
+- [オリジナル3Dモデル「しなの」](https://ponderogen.booth.pm/items/6106863)
+- [オリジナル3Dモデル「桔梗」](https://ponderogen.booth.pm/items/3681787)
+- [サメっ子オリジナル3Dモデル「rurune」-ルルネ-](https://booth.pm/ja/items/5957830)
+- [オリジナル3Dモデル「マヌカ」](https://booth.pm/ja/items/5058077)
+- [ライム -Lime-【オリジナル3Dモデル】](https://booth.pm/ja/items/4876459)
+- [オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
 
-    AVATAR:
+### 衣装
 
-    [オリジナル3Dモデル「しなの」](https://ponderogen.booth.pm/items/6106863)
-
-    [オリジナル3Dモデル「桔梗」](https://ponderogen.booth.pm/items/3681787)
-
-    [サメっ子オリジナル3Dモデル「rurune」-ルルネ-](https://booth.pm/ja/items/5957830)
-
-    [オリジナル3Dモデル「マヌカ」](https://booth.pm/ja/items/5058077)
-
-    [ライム -Lime-【オリジナル3Dモデル】](https://booth.pm/ja/items/4876459)
-
-    [オリジナルモデル「フィオナ(Fiona)」](https://booth.pm/ja/items/4592568)
-
-    衣装:
-
-    [かぷちや](https://capettiya.booth.pm/)
-
-    [NookNook](https://osatoubox.booth.pm/)
-
-    [てんぱすおおもり](https://tempasta.booth.pm/)
-
-    [SilverSpace](https://silverspace.booth.pm/)
-
-    [Chocolate rice](https://chocolaterice.booth.pm/)
-
-    [HINO shop](https://hino-shop.booth.pm/)
+- [かぷちや](https://capettiya.booth.pm/)
+- [NookNook](https://osatoubox.booth.pm/)
+- [てんぱすおおもり](https://tempasta.booth.pm/)
+- [SilverSpace](https://silverspace.booth.pm/)
+- [Chocolate rice](https://chocolaterice.booth.pm/)
+- [HINO shop](https://hino-shop.booth.pm/)

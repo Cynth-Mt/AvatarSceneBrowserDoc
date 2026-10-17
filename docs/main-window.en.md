@@ -13,8 +13,9 @@ The controls at the top let you switch between Chinese, Japanese, and English an
 - **GUID Tool**: checks and repairs the association between scene paths and GUIDs.
 - **SS Settings**: selects PNG/JPEG and JPEG quality.
 
-!!! info "Updating avatar configuration screenshots"
-    **Refresh All SS** does not load and capture each avatar configuration. To update a configuration, load it first, then use the toolbar screenshot button or **Refresh Current SS**. A bulk refresh may cause existing configurations to be marked as outdated.
+**Updating avatar configuration screenshots**
+
+**Refresh All SS** does not load and capture each avatar configuration. To update a configuration, load it first, then use the toolbar screenshot button or **Refresh Current SS**. A bulk refresh may cause existing configurations to be marked as outdated.
 
 ---
 
@@ -33,8 +34,9 @@ The gallery shows recorded scene screenshots and avatar configuration screenshot
 
 Drag the slider to resize thumbnails. You can sort by name, creation time, or modification time, in either direction.
 
-!!! info "How time-based sorting works"
-    Sorting uses timestamps saved by the plugin, not the modification time of the Unity scene file on disk. Retaking a configuration screenshot updates its modification time while keeping its original creation time.
+**How time-based sorting works**
+
+Sorting uses timestamps saved by the plugin, not the modification time of the Unity scene file on disk. Retaking a configuration screenshot updates its modification time while keeping its original creation time.
 
 ② Screenshot area
 
@@ -74,8 +76,9 @@ Right-click a standard scene thumbnail to:
 
 For avatar configuration thumbnails, the open commands are **Open Scene and Load Configuration** and **Open Scene Only**. Clearing tags and deleting data apply to the selected configuration.
 
-!!! info "Refreshing from the context menu"
-    The current **Refresh Screenshot** command takes a standard scene screenshot. It does not restore the selected avatar configuration first. To update a configuration's image, follow the instructions at the top of this page.
+**Refreshing from the context menu**
+
+The current **Refresh Screenshot** command takes a standard scene screenshot. It does not restore the selected avatar configuration first. To update a configuration's image, follow the instructions at the top of this page.
 
 ---
 
@@ -113,5 +116,6 @@ After you select a scene or configuration, the **Avatar Configuration** panel on
 - **▶**: opens the scene and restores the recorded avatar active states.
 - **✕**: deletes the configuration after confirmation.
 
-!!! tip "Creating or updating a configuration"
-    In a scene containing at least two VRChat avatars, set the active state of each avatar's root object, then click the toolbar screenshot button. A new combination creates a configuration; an existing combination updates its image. Loading a configuration does not restore outfits, materials, or the camera angle used for the screenshot.
+**Creating or updating a configuration**
+
+In a scene containing at least two VRChat avatars, set the active state of each avatar's root object, then click the toolbar screenshot button. A new combination creates a configuration; an existing combination updates its image. Loading a configuration does not restore outfits, materials, or the camera angle used for the screenshot.

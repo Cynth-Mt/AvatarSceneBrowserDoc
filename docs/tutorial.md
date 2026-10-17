@@ -75,8 +75,9 @@ icon: material/book-open-variant
 
 也可以同时激活多个 Avatar，确认提示后把它们保存为一个组合。若所有 Avatar 都关闭，确认后会保存“无Avatar”配置。
 
-!!! info "再次截图"
-    同一组 Avatar 的激活状态再次截图时，会更新已有配置的图片，不会重复新增配置。要更新某个配置，先加载它，再点击工具栏截图按钮或主窗口顶部的“刷新当前打开的Scene截图”。
+**再次截图**
+
+同一组 Avatar 的激活状态再次截图时，会更新已有配置的图片，不会重复新增配置。要更新某个配置，先加载它，再点击工具栏截图按钮或主窗口顶部的“刷新当前打开的Scene截图”。
 
 恢复 Avatar 状态有三种方式：
 
@@ -86,8 +87,9 @@ icon: material/book-open-variant
 
 配置保存的是 Avatar 根对象的激活状态，不会还原服装、材质、姿势或 Scene 视角。加载后如果希望保留当前状态，需要保存 Unity 场景。
 
-!!! info "注意"
-    Avatar 配置功能需要 VRChat SDK（VRCSDK3）。未安装 SDK 时仍可截图，但不会保存 Avatar 配置。
+**注意**
+
+Avatar 配置功能需要 VRChat SDK（VRCSDK3）。未安装 SDK 时仍可截图，但不会保存 Avatar 配置。
 
 ---
 
