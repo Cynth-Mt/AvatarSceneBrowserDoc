@@ -60,3 +60,28 @@ Added usage documentation.
 - Renamed the plugin from `AvatarSceneBrowser` to `VRCAvatarSceneBrowser`.
 - Updated menu paths to `Tools/CYN-lab/VRCAvatarSceneBrowser/`.
 - Fixed the window title appearing as `MainWindow` when opened from the screenshot button.
+
+## *ver0.3 2026.11.2*
+
+**Bug fixes**
+
+- Configuration screenshots no longer overwrite one another when scenes or avatars share the same name. Retaking a screenshot also preserves the existing configuration and tags.
+- If saving an avatar configuration screenshot fails, the original image and its association are preserved, and an error is shown.
+- Deleting a single screenshot or configuration no longer removes images shared by other configurations. If deletion fails, the original data is restored.
+- Fixed images being left behind after deletion in projects that use symbolic links.
+- Canceling a scene switch now also stops the screenshot update.
+- Renaming a tag now updates its name in the associated avatar configurations while preserving the tag's color.
+- If saving tags fails, the original data is restored, and an error is shown.
+- Tag usage counts now include usage in avatar configurations.
+
+**UI improvements**
+
+- Revised avatar status descriptions to make it clearer whether one or multiple avatars are active in a scene containing several avatars. For standard screenshots, the status indicating that the scene has only one or no VRChat avatars appears only after opening the corresponding scene.
+- The preview on the right now refreshes when a screenshot is updated, so it no longer shows an outdated image.
+- Improved the layout of small windows to keep buttons and settings easier to see.
+- When filtering hides the selected card, the details panel is also cleared to avoid confusion about which item an operation affects.
+
+**Translation improvements**
+
+- Shortened some Japanese and English button labels to reduce text clipping.
+- Completed the deletion confirmation translations to avoid mixing Chinese and Japanese.
