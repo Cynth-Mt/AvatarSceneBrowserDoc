@@ -85,3 +85,14 @@ Added usage documentation.
 
 - Shortened some Japanese and English button labels to reduce text clipping.
 - Completed the deletion confirmation translations to avoid mixing Chinese and Japanese.
+
+## *ver0.4 2026.11.13*
+
+**Bug fixes and UI improvements**
+
+- If data cannot be loaded, the original files are preserved and related save and screenshot operations are stopped.
+- Fixed an issue where some older scene records were lost during migration.
+- Fixed screenshot registration interfering across multiple projects.
+- Improved recovery after tag saves fail, and protected images still used by other records when deleting screenshots.
+- Bulk refresh no longer changes Unity's automatic refresh setting.
+- Refined sorting labels and button tooltips, with corresponding updates to the Chinese, Japanese, and English translations.
